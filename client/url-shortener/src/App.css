@@ -1,0 +1,106 @@
+.App {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+fieldset {
+  height: 500px;
+  width: 600px;
+}
+
+.url-input {
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.view {
+  margin-top: 300px;
+}
+
+.short-btn {
+  height: 20px;
+  width: 75px;
+  margin-left: 300px;
+}
+
+.mainContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer > .errorLabel {
+  color: red;
+  font-size: 12px;
+}
+
+.inputBox {
+  height: 48px;
+  width: 400px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+
+.signIn-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.signIn-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #24292e;
+}
+
+.signIn-form input {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #d1d5da;
+  box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075);
+  border-radius: 3px;
+  color: #24292e;
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 34px;
+  padding: 6px 8px;
+}
+
+.signIn-form button {
+  margin-top: 20px;
+  background-color: #28a745;
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.signUp-option {
+  border: 1px solid #d8dee2;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-align: center;
+}
